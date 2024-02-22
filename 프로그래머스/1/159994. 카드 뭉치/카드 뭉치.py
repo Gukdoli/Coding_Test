@@ -8,6 +8,6 @@ def solution(cards1, cards2, goal):
         else:
             answer = 'No'
             break
-        if len(cards1) and len(cards2) == 0:
+        if len(cards1) == 0 and len(cards2) == 0:
             answer = 'Yes'
     return answer
