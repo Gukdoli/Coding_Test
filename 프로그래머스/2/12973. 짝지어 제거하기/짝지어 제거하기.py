@@ -7,4 +7,4 @@ def solution(s):
             stack.append(i)  # 스택에 추가
     if len(stack) == 0:  # 스택이 비어있으면
         return 1
-    return 0
+    return 0  
